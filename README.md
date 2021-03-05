@@ -1,1 +1,1 @@
-# notmic
+# js animations practice site
