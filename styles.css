@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  font-family: "Heebo", sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1612831455740-a2f6212eeeb2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  padding-left: 10rem;
+  font-size: 1.2rem;
+}
+#logo {
+  /* font-family: 'Bitter', serif; */
+  font-weight: lighter;
+  /* font-size: 2rem; */
+}
+
+.big-text {
+  position: absolute;
+  top: 20%;
+  left: 19%;
+  transform: translate(-50%, -30%);
+  font-size: 7.5rem;
+  /* font-family: 'Bitter', serif; */
+  color: rgb(61, 61, 61);
+}
+
+.landing p{
+  position: absolute;
+  top: 31.2%;
+  left: 20.7%;
+  transform: translate(-50%, -30%);
+  font-size: 1.1rem;
+  color: rgb(61, 61, 61);
+  width: 30%;
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: #D3D3D3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.mid{
+  min-height: 100vh;
+  background: url("https://www.smartworld.it/wp-content/uploads/2019/10/SurfaceLaptop3-2.jpg");
+  background-size: cover;
+  padding: 0rem 5rem;
+  position: relative;
+}
+
+.mid h2{
+  position: absolute;
+  top: 17%;
+  left: 19%;
+  transform: translate(-50%, -30%);
+  font-size: 3rem;
+  /* font-family: 'Bitter', serif; */
+  color: rgb(61, 61, 61);
+}
+
+.mid p{
+  position: absolute;
+  /* top: 31.2%; */
+  /* left: 19.5%; */
+  margin-top: 17%;
+  margin-left: 15%;
+  transform: translate(-50%, -30%);
+  font-size: 1.2rem;
+  color: rgb(61, 61, 61);
+  font-weight: lighter;
+}
+
+footer{
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  height: 5%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
